@@ -1,4 +1,4 @@
-var API_KEY = 'AIzaSyDCWM8646LrzTQecQRU7vOrCffD3sRL7Bo';
+var API_KEY = 'API_KEY';
 
 gapi.load('client', () => {
     // Initialize the Google API client with your API key and the required scopes
