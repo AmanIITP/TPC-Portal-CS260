@@ -163,7 +163,8 @@ $user_id = $_SESSION["user_id"];
                             <button class='btn-lg btn-primary' type='submit' id='submit'>Submit</button>
                         </div>
                         <div class='col-md-offset-4 col-md-3'>
-                            <a href='https://forms.gle/3eiZ9CS8Y5WzPfmKA' class='btn-lg btn-danger'
+                        <!-- paste the gform link here -->
+                            <a href='GOOGLE_FORM_LINK' class='btn-lg btn-danger' 
                                 style='float:right'>Upload Files</a>
                         </div>
                         <div class='col-md-3'>

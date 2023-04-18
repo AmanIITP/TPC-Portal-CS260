@@ -1,4 +1,3 @@
-
 var API_KEY = 'API_KEY'
 
 gapi.load('client', () => {
