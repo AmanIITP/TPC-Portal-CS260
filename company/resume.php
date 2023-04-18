@@ -59,7 +59,7 @@ $roll_no = $_SESSION["roll_no"];
             
             var fileName = "<?php echo $roll_no; ?>";
             if (button_id === "resume") {
-                const folderId = '1hvMser4Jz-P0-6ZvXiRcYvxCTXN_VuVSsgQ8T6TOYjMpO_3c-iQuFurQ1o9dRfVLTPHfQ8Lh';
+                const folderId = 'folderId';
                 getDownloadUrl(folderId, fileName).then((downloadUrl) => {
                     const viewOnlyUrl = downloadUrl.replace("&export=download", "");
                     // console.log(viewOnlyUrl);
