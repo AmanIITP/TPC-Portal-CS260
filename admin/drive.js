@@ -1,7 +1,5 @@
-var CLIENT_ID = '677889249776-s5rb475hn9s8naotk21ef6ntmkn7scbd.apps.googleusercontent.com';
+
 var API_KEY = 'AIzaSyDCWM8646LrzTQecQRU7vOrCffD3sRL7Bo';
-var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
-var SCOPES = 'https://www.googleapis.com/auth/drive.readonly';
 
 gapi.load('client', () => {
     // Initialize the Google API client with your API key and the required scopes
