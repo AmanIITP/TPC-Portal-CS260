@@ -80,7 +80,7 @@ $roll_no = $_POST["roll_no"];
                 });
             } else if (button_id === "12th-certificate") {
                 var fileName = "<?php echo $roll_no; ?>_2";
-                const folderId = '1xZyaLMHBXgyEc5kj1pDVOkGvmhjaKsp_sbfLVBCYpKQayXXV770hTQbe0mYtAfD7pb-bJpsK';
+                
                 getDownloadUrl(folderId, fileName).then((downloadUrl) => {
                     const viewOnlyUrl = downloadUrl.replace("&export=download", "");
                     // console.log(viewOnlyUrl);
@@ -90,7 +90,7 @@ $roll_no = $_POST["roll_no"];
                 });
             } else if (button_id === "transcript") {
                 var fileName = "<?php echo $roll_no; ?>_3";
-                const folderId = '1W8ZRSk14hDWXuzdvdr03afKKTNGVf5GRQedq-tC3rQvYerRYVdVOKSWQ3E_NV3N-qmcx08Is';
+                
                 getDownloadUrl(folderId, fileName).then((downloadUrl) => {
                     const viewOnlyUrl = downloadUrl.replace("&export=download", "");
                     // console.log(viewOnlyUrl);
